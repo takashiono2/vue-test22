@@ -1,0 +1,12 @@
+<template>
+  <h1>The users view,with ID: {{ $route.params.id }}</h1>
+</template>
+
+<script>
+export default{
+  layout: 'users',
+  validate(data){
+    return /^\d+$/.test(data.params.id)
+  }
+}
+</script>
