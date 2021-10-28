@@ -30,4 +30,14 @@
   width:80%;
 }
 
+.nav-items a{
+  text-decoration: none;
+  color: black;
+}
+
+nav-items a:hover,
+nav-items a:active{
+  color: white;
+}
+
 </style>

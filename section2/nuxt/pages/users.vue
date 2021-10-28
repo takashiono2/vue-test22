@@ -1,8 +1,8 @@
 <template>
   <div>
-    <input type="text" v-model="userId">
+    <input type="text" v-model="userId" class="inputStyle">
     <button @click="onLoadUser">Load User</button>
-    <nuxt-child/>
+    <!-- <nuxt-child/> -->
   </div>
 </template>
 
@@ -23,5 +23,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-
+.inputStyle{
+  border:2px green solid;
+}
 </style>

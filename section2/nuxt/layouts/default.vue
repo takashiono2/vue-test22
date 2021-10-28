@@ -1,16 +1,19 @@
 <template>
   <div>
     <Header />
-    <p>ボタンを押してね</p>v
+    <Nuxt />
   </div>
 </template>
 
 <script>
-import Header from '~/components/Header.vue'
+import Header from '@/components/Header.vue'
 export default{
-  layout: 'users',
   components:{
     Header
   }
 }
 </script>
+
+<style>
+
+</style>

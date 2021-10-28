@@ -1,13 +1,14 @@
 <template>
-  <section class="container">
+  <div>
     <Header />
-    <nuxt-link to="/users">Users</nuxt-link>
-  </section>
+    <p>ボタンを押してね</p>
+  </div>
 </template>
 
 <script>
 import Header from '~/components/Header.vue'
 export default{
+  layout: 'users',
   components:{
     Header
   }
